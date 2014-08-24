@@ -1,0 +1,17 @@
+{
+    "contents" : "pml_write_files = function(x){\n        n = length(x)\n        for(i in 1:n){\n                filename = paste0(\"problem_id_\",i,\".txt\")\n                write.table(x[i],file=filename,quote=FALSE,row.names=FALSE,col.names=FALSE)\n        }\n}\npml_write_files(answers)\n\ny <- 1:5\nfor (k in seq_along(y)) {\n        print(k)\n}\n",
+    "created" : 1408886376903.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3624890968",
+    "id" : "E0EDAE16",
+    "lastKnownWriteTime" : 2565335344,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled2"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
