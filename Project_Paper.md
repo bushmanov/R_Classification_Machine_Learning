@@ -267,7 +267,6 @@ c50TuneFinal$times$everything
   - `run-analysis.R` -- code to reproduce results presented in this document
   - `Project_Paper.Rmd` -- `.Rmd` source of this document
   - `Project_Paper.md`, `Project_Paper.html` -- compiled versions of this document
-2. http://sbushmanov.github.io/machine_learning is the address for `gh-page` of this document
 
 
 ## Data credit
